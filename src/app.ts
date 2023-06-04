@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users/', usersRouter)
 
 // Testing
-app.get('/', async(req: Request, res: Response) => {
+app.get('/', async (req: Request, res: Response) => {
   // await usersService.createUser({
   //   id:'999',
   //   password:'password',
